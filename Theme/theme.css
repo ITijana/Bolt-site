@@ -1,0 +1,41 @@
+
+nav,
+.main-section,
+.pricing-section,
+.feature-section {
+   background: #505050;
+}
+
+nav {
+  border-bottom: solid 2px #FAFAFA;
+}
+
+.nav-menu a {
+   color: #FAFAFA;
+}
+
+.nav-button a,
+.sign-up-button,
+.col-features h3,
+.footer-center .first-links a {
+   color: #E6E6E6;
+}
+
+.generator-section,
+.qr-code-section {
+   background: #2D2D2D;
+}
+
+.title-paragraph {
+   color: #E6E6E6;
+}
+
+.title,
+.generator-title {
+   color: #FAFAFA;
+}
+
+footer {
+   background: #666666;
+   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+}

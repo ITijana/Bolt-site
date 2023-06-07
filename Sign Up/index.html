@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign Up</title>
+   <link rel="stylesheet" href="../style.css">
+   <link rel="stylesheet" href="../Log in/style.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="../Android/responsive.css">
+   <!-- FONTS -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Inter&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav>
+      <a href="../index.html" class="logo-link"><img src="../Images/Navigation/bolt-logo.svg" alt="Bolt Logo" width="128px" class="bolt-logo"></a>
+      <ul class="nav-menu">
+         <li><a href="#">Generate QR Codes</a></li>
+         <li><a href="#">Pricing</a></li>
+         <li><a href="../Log in/index.html">Log in</a></li>
+      </ul>
+      <button class="nav-button"><a href="./Sign Up/index.html">Sign up</a></button>
+      <img src="../Images/Navigation/theme-icon.jpg.svg" class="theme-icon" alt="theme icon">
+   </nav>
+
+    <!-- main -->
+    <main>
+      <div class="form-box">
+         <div class="sign-up-header">
+            <h1>Sign up</h1>
+            <p>Welcome to Bolt account creation. Enjoy all the benefits it offers.</p>
+         </div>
+         <form class="input-group" action="">
+            <input type="text" name="name" id="name" class="input-field" placeholder="Your name*" required>
+            <input type="text" name="email" id="email" class="input-field" placeholder="Your email*" required>
+            <input type="password" name="pass" id="pass" class="input-field" placeholder="Your password*">
+            <div class="checkbox">
+               <img src="./Images/chech-box.svg" alt="checkbox" id="checkboxImg" onclick="changeImage()">
+               <p>Please confirm that you have read and understood the Terms and Conditions and Privacy Policy of the site.*</p>
+            </div>
+            <button class="create-button">Create account</button>
+            <p class="link-paragraph">If you all ready have account, please <a href="../Log in/index.html">Log in</a></p>
+         </form>
+      </div>
+      <img src="./Images/sign-up-illustration.png" alt="sign-up" class="sign-up">
+   </main>
+
+   <!-- footer -->
+   <footer>
+      <div class="footer-left">
+         <div class="logo">
+            <img src="../Images/Footer/taraba-logo-latin-full-color-white 1.svg" alt="#taraba" width="116px">
+         </div>
+         <a href="#"><img src="../Images/Footer/linked-in-large.svg" alt="linked in logo"></a>
+         <a href="#"><img src="../Images/Footer/instagram-large.svg" alt="instagram logo"></a>
+         <a href="#"><img src="../Images/Footer/you-tube-large.svg" alt="youtube logo"></a>
+         <a href="#"><img src="../Images/Footer/facebook-large.svg" alt="facebook logo"></a>
+         
+         <p>Copyright © 2021 Taraba. All rights reserved.</p>
+      </div>
+      <div class="footer-center">
+         <p>Quick links</p>
+         <div class="first-links">
+            <a href="#">Generate QR codes</a>
+            <a href="#">Pricing</a>
+         </div>
+         
+         <div class="second-links">
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+         </div>
+      
+      </div>
+      <div class="footer-right">
+         <p>Our family</p>
+         <div class="family-div">
+           <table>
+            <tr>
+              <td>
+                <img src="../Images/Footer/trb-tech-logo-solid-white (1) 1.svg" alt="taraba.tech logo" class="image-cell" width="100px">
+              </td>
+              <td>
+                <img src="../Images/Footer/trb-edu-logo-solid-white.svg" alt="taraba.edu logo" class="image-cell" width="100px">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="../Images/Footer/portal-logo-lat-solid-white 1.svg" alt="taraba portal logo" class="image-cell" width="95px">
+              </td>
+              <td>
+                <img src="../Images/Footer/oakly-logo-full-color 9.svg" alt="oakly logo" class="image-cell" width="62px">
+              </td>
+            </tr>
+          </table>
+      </div>
+   </footer>
+
+   <script>
+      function changeImage() {
+        var checkboxImg = document.getElementById("checkboxImg");
+        checkboxImg.src = "./Images/validation.svg";
+      }
+    </script>
+</body>
+</html>

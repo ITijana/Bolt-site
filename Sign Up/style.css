@@ -1,0 +1,15 @@
+main {
+   padding-bottom: 162px;
+}
+
+.input-field:nth-child(2) {
+   margin-bottom: 24px;
+}
+
+.checkbox p {
+   margin-left: 6px;
+}
+
+.input-group {
+   padding-bottom: 0;
+}
